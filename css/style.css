@@ -165,3 +165,20 @@ body {
   height: 200px;
   object-fit: cover;
 }
+
+.tab-box-1__head .tab-box-1__item {
+  font-weight: bold;
+}
+
+.tab-box-1__head .tab-box-1__item.active {
+  color:red;
+  text-decoration: underline;
+}
+
+.tab-box-1__body .tab-box-1__item {
+  display: none;
+}
+
+.tab-box-1__body .tab-box-1__item.active {
+  display: flex;
+}
