@@ -43,6 +43,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .flex-1 {
   flex: 1 1 0;
 }
@@ -242,4 +246,48 @@ body {
 
 .tab-box-1__body .tab-box-1__item.active {
   display: flex;
+}
+
+.popup {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,0.7);
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup.active {
+  display: flex;
+}
+
+.popup__inner {
+  width: 100%;
+  max-width:700px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.popup__head {
+  font-weight: bold;
+  padding:10px;
+}
+
+.popup__body {
+  padding:10px;
+}
+
+.btn-close {
+  border:1px solid black;
+  border-radius: 3px;
+  padding:3px;
+  cursor: pointer;
+}
+
+.btn-close:active {
+  transform: translateY(3 px);
 }

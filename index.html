@@ -12,6 +12,20 @@
     <script defer src="script/script.js"></script>
   </head>
   <body>
+    <div class="popup popup-1">
+      <div class="popup__inner">
+        <div class="popup__head">
+          공지사항
+        </div>
+        <div class="popup__body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis animi quos laudantium, sunt earum fugiat velit provident laborum officiis temporibus atque voluptatem, inventore minus dolore maxime repellat saepe exercitationem officia.
+          <div class="flex justify-center mt-10px">
+            <div class="btn-close" onclick="$('.popup-1').removeClass('active');">닫기</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header class="top-bar">
       <div class="con mx-auto flex items-center">
         <a href="#" class="mr-auto">
@@ -94,7 +108,7 @@
             <div class="tab-box-1__body mt-10px">
               <ul class="tab-box-1__item tab-box-1__item-1 active flex-col">
                 <li>
-                  <a href="#" class="flex py-5px hover:underline hover:text-red">
+                  <a href="#" onclick="$('.popup-1').addClass('active');" class="flex py-5px hover:underline hover:text-red">
                     <span class="font-bold mr-auto">공지사항 5</span>
                     <span>2022-12-12</span>
                   </a>
