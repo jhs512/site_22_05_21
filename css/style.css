@@ -47,6 +47,10 @@ video {
   justify-content: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .flex-1 {
   flex: 1 1 0;
 }
@@ -114,6 +118,14 @@ video {
 
 .w-100px {
   width:100px;
+}
+
+.h-100px {
+  height: 100px;
+}
+
+.grayscale {
+  filter: grayscale(100%);
 }
 
 /* 커스텀 */
