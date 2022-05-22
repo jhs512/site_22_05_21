@@ -43,12 +43,45 @@ video {
   flex: 1 1 0;
 }
 
+.gap-10px {
+  gap: 10px;
+}
+
+.gap-20px {
+  gap: 20px;
+}
+
 .gap-30px {
   gap: 30px;
 }
 
+.mt-10px {
+  margin-top: 10px;
+}
+
 .mt-30px {
   margin-top: 30px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.py-5px {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.hover\:text-red:hover {
+  color:red
+}
+
+.font-bold {
+  font-weight: bold;
 }
 
 /* 커스텀 */
